@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background: rgb(20,255,49);
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+#counter {
+    color: rgb(60, 153, 60);
+    font-size: 4rem;
+}
+
+.myButton {
+	background-color:#77d42a;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:19px 45px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#5cb811;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.clickButton {
+	background-color:#3d94f6;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:27px;
+	font-weight:bold;
+	padding:20px 76px;
+	text-decoration:none;
+}
+.clickButton:hover {
+	background-color:#1e62d0;
+}
+.clickButton:active {
+	position:relative;
+	top:1px;
+}
+
+.clicker {
+    margin: 5rem`;
+}

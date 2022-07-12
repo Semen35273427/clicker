@@ -16,7 +16,7 @@ function oneClick() {
 function speed12() {
     if (clicker >= 100) {
         clicker = clicker - 100;
-        speed = speed * 0.001;
+        speed = speed * 0.8;
         let timerId = setInterval(() => click(), speed);    
     }
 };
