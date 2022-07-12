@@ -3,14 +3,25 @@ let speed = 1000;
 // повторить с интервалом 2 секунды
 let timerId = setInterval(() => click(), speed);
 
+function stop () {
+
+}
+
 function click() {
+    if (clicker >= 1000000) {
+        alert("Good job! Take a cake.");
+        let timerId = setInterval(() => stop(), 0);
+    }
+    
     clicker++;
     document.getElementById("counter").innerHTML = clicker;
+    document.getElementById("goal").innerHTML = 1000000-clicker;
 };
 
 function oneClick() {
-    clicker++;
+    clicker = clicker + 1;
     document.getElementById("counter").innerHTML = clicker;
+    document.getElementById("goal").innerHTML = 1000000-clicker;
 };
 
 function speed12() {
