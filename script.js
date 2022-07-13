@@ -3,9 +3,7 @@ let speed = 1000;
 // повторить с интервалом 2 секунды
 let timerId = setInterval(() => click(), speed);
 
-function stop () {
-
-}
+// Добаляет один поинт к цели
 
 function click() {
     if (clicker >= 1000000) {
