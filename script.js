@@ -26,7 +26,9 @@ function speed12() {
     if (clicker >= 10) {
         clicker = clicker - 10;
         speed = speed * 0.8;
-        let timerId = setInterval(() => click(), speed);    
+        let timerId = setInterval(() => click(), speed);
+        // удаление элемента html по id
+        document.getElementById("one").remove();    
     }
 };
 
@@ -34,14 +36,16 @@ function speed13() {
     if (clicker >= 100) {
         clicker = clicker - 100;
         speed = speed * 0.7;
-        let timerId = setInterval(() => click(), speed);    
+        let timerId = setInterval(() => click(), speed);
+        document.getElementById("two").remove();        
     }
 };
 
 function speed14() {
-    if (clicker >= 1000) {
-        clicker = clicker - 1000;
+    if (clicker >= 500) {
+        clicker = clicker - 500;
         speed = speed * 0.1;
-        let timerId = setInterval(() => click(), speed);    
+        let timerId = setInterval(() => click(), speed);
+        document.getElementById("three").remove();        
     }
 };
