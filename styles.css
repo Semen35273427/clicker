@@ -19,25 +19,68 @@ header {
     font-size: 4rem;
 }
 
-.myButton {
-	background-color:#77d42a;
+.myButton1 {
+	background-color:#fffb00;
 	border-radius:42px;
     border: none;
 	display:inline-block;
 	cursor:pointer;
-	color:#306108;
+	color:#ffffff;
 	font-family:Arial;
 	font-size:28px;
 	font-weight:bold;
 	padding:19px 45px;
 	text-decoration:none;
 }
-.myButton:hover {
-	background-color:#5cb811;
+.myButton1:hover {
+	background-color:#d4b114;
 }
-.myButton:active {
+.myButton1:active {
 	position:relative;
 	top:1px;
+}
+
+.myButton2 {
+	background-color:#002fff;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:19px 45px;
+	text-decoration:none;
+}
+.myButton2:hover {
+	background-color:#132575;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+	
+}
+.myButton3 {
+	background-color:#9dff00;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:19px 45px;
+	text-decoration:none;
+}
+.myButton3:hover {
+	background-color:#1f6909;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+	
 }
 
 .clickButton {
@@ -75,13 +118,19 @@ span {
 
 @media (max-width: 500px) {
 		
-	.myButton {
+	.myButton1 {
 		margin-top: 20px;;
 		font-size:16px;
 	}
-	.myButton:active {
-		position:relative;
-		top:1px;
+
+	.myButton2 {
+		margin-top: 20px;;
+		font-size:16px;
+	}
+
+	.myButton3 {
+		margin-top: 20px;;
+		font-size:16px;
 	}
 
 	.clicker {
